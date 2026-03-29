@@ -1,24 +1,32 @@
-# Privacy Policy for PrepperApp
-
+# Privacy Policy – PrepperApp
 Last updated: March 2026
 
-## Data Collection
-PrepperApp does NOT collect, store, or share any personal data with third parties. All data you enter in the app is stored locally on your device.
+## What data we collect
+PrepperApp collects the following data:
 
-## Barcode Scanner
-When you scan a product barcode, the app sends the barcode number to Open Food Facts (openfoodfacts.org) to retrieve product information. No personal data is sent with this request.
+- **Name** – your display name, shared with friends via CloudKit
+- **Coarse Location** – your city and country, used for local emergency alerts 
+  and emergency numbers. Stored in CloudKit.
+- **Health data** – medical information you enter (blood type, medications, 
+  conditions). Stored locally on your device only, never uploaded.
+- **Photos** – document photos stored in your vault. Stored locally only.
+- **User content** – emergency plans, supply lists, notes. Stored locally only.
+- **User ID** – an anonymous invite code used to connect with friends 
+  via CloudKit.
 
-## Location Data
-The app uses your device location for sun position calculations and automatic emergency number detection. Location data is processed on your device and is NOT sent to any server.
+## How we use your data
+All data is used solely for app functionality. We do not use your data for 
+advertising, analytics, or any other purpose.
 
-## Camera
-The camera is used solely for scanning product barcodes and photographing documents. Images are stored locally on your device only.
+## Third parties
+We use Apple CloudKit to sync data between devices and with friends you 
+invite. Apple's privacy policy applies: https://www.apple.com/privacy
 
-## Notifications
-Local notifications are used to alert you about expiring products. These are processed entirely on your device.
+We do not share your data with any other third parties.
 
-## Third-Party Services
-PrepperApp does not use any analytics, advertising, or tracking services.
+## Data storage
+- Local data: stored on your device using Apple SwiftData
+- Cloud data: name, city, country and invite code are stored in Apple CloudKit
 
 ## Contact
-For questions about this Privacy Policy, contact us at: michaelstuut@gmail.com
+Questions? Contact us at: michaelstuut@gmail.com
